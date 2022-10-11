@@ -39,10 +39,22 @@ function render() {
   }
   const { words, letters, vowels, consonants } = parse(sentence);
   parsingResult.innerHTML = `
-    <p>Words : ${words}</p>
-    <p>Letters : ${letters}</p>
-    <p>Vowels : ${vowels}</p>
-    <p>Consonants : ${consonants}</p>
+    <div class="card">
+      <p class="card__label">Words</p>
+      <p class="card__value">${words}</p>
+    </div>
+    <div class="card">
+      <p class="card__label">Letters</p>
+      <p class="card__value">${letters}</p>
+    </div>
+    <div class="card">
+      <p class="card__label">Vowels</p>
+      <p class="card__value">${vowels}</p>
+    </div>
+    <div class="card">
+      <p class="card__label">Consonants</p>
+      <p class="card__value">${consonants}</p>
+    </div>
   `;
 }
 

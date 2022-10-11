@@ -17,6 +17,10 @@ main {
   width: 70vw;
 }
 
+h1 {
+  margin-top: 3rem;
+}
+
 .sentence {
   display: flex;
   flex-flow: row;
@@ -58,15 +62,20 @@ button:hover {
 }
 
 .result {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.card {
+  width: calc(25% - 3rem);
   border: solid 1px white;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   padding: 1rem;
 }
 
-p {
-  margin: 0;
-}
-
-p + p {
-  margin-top: 0.5rem;
+.card__value {
+  font-size: 2rem;
+  font-weight: bold;
 }
