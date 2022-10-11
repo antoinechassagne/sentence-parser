@@ -19,7 +19,7 @@ As a user, I can visualize parsing result so I can better understand the sentenc
 
 ### Acceptance critera
 
-- When the parsing result is empty, it should display the following message : "Type a sentence ✍️"
+- When the parsing result is empty, it should display the following message : "No parsing result yet. Let's type a sentence !"
 - When parsing is triggered, the parsing result should display the following informations :
   - The number of words in the sentence
   - The number of letter in the sentence (spaces are excluded)
